@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">世界这么大</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+
+    <!--HomeActivity-->
+    <string name="home_home">首页</string>
+    <string name="home_find">结伴</string>
+    <string name="home_xiang">留念</string>
+    <string name="home_search">消息</string>
+    <string name="home_profile">我</string>
+
+
+</resources>

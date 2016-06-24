@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/a21">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/text"
+        android:text="HI 欢迎来到WORLD"
+        android:layout_centerHorizontal="true"
+        android:textColor="#0fe2b1"
+        android:textSize="32dp"
+        android:paddingTop="70dp"/>
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:id="@+id/tableLayout">
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <EditText
+                android:id="@+id/text1"
+                android:layout_height="wrap_content"
+                android:hint="Э邮箱/手机号码"
+                android:textSize="26dp"/>
+        </TableRow>
+        <TableRow
+            android:id="@+id/tableRow2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <EditText
+                android:id="@+id/text2"
+                android:layout_height="wrap_content"
+                android:hint="Э密码"
+                android:textSize="26dp"/>
+        </TableRow>
+        <TableRow
+            android:id="@+id/tableRow3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <Button
+                android:id="@+id/text3"
+                android:layout_height="wrap_content"
+                android:text="登录"
+                android:textSize="20dp"
+                android:background="#0ddec2"/>
+        </TableRow>
+    </TableLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="忘记密码?"
+        android:textSize="16dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"/>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/a13"
+        android:id="@+id/image1"
+        android:layout_marginTop="35dp"
+        android:layout_below="@+id/tableLayout"
+        android:layout_alignStart="@+id/tableLayout" />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/a14"
+        android:id="@+id/image2"
+        android:layout_alignBottom="@+id/image1"
+        android:layout_centerHorizontal="true" />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/a15"
+        android:id="@+id/image3"
+        android:layout_alignTop="@+id/image1"
+        android:layout_alignEnd="@+id/tableLayout" />
+
+</RelativeLayout>
